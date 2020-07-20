@@ -1,0 +1,17 @@
+class Program {
+    int func(boolean a) {
+        return a;
+    }
+
+    void main() {
+        int a;
+        int b;
+        int c;
+        boolean d;
+        boolean coso;
+        coso = d||d;
+        b = (a + b - c) + 2*a;
+        //b = func(a);
+
+    }
+}

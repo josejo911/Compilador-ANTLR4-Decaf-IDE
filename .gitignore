@@ -1,23 +1,67 @@
-# Compiled class file
-*.class
+# Eclipse
+.classpath
+.project
+.settings
 
-# Log file
-*.log
+# /
+/.cvsignore
+/.tomcatplugin
+/work
+/.gwt-cache
+/.externalToolBuilders
+/extras
 
-# BlueJ files
-*.ctxt
+uitest/src/main/themes/VAADIN/themes/**/styles.css
+test/servlet-containers/karaf/vaadin-karaf-bundle1/src/main/resources/VAADIN/themes/karaftesttheme/styles.css
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Persisted scss cache files
+uitest/src/main/themes/VAADIN/themes/**/styles.scss.cache
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# /build/
+/build/result
+/build/gwt
+/build/checkout
+/build/classes
+/build/test-output
+/build/integration-test-output
+/build/buildhelpers/com/vaadin/buildhelpers/*.class
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# /tests/
+/tests/junit*.properties
+
+# /bin/
+/bin
+
+# Mac
+*.DS_Store
+
+# Python
+scripts/*.pyc
+
+# build result folders
+*/result
+result
+target/
+all/target/
+push/target/
+shared/target/
+server/target/
+client/target/
+client-compiler/target/
+buildhelpers/target/
+client-compiled/target/
+liferay/target/
+themes/target/
+uitest/target/
+widgets/target/
+
+.sass-cache
+phantomjsdriver.log
+
+*.iml
+.idea
+
+*/.checkstyle
+
+# TB default error screenshot folder
+error-screenshots/
