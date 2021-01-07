@@ -1,0 +1,14 @@
+class RecursiveMethod {
+    int rMethod (int param) {
+        if (param > 1) {
+            return 1;
+        } else {
+            return rMethod(param + 1);
+        }
+    }
+
+    void main() {
+        int varInt;
+        varInt = rMethod(2);
+    }
+}

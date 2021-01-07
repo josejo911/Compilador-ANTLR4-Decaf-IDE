@@ -1,0 +1,26 @@
+class ArrayTests {
+    int func(int var) {
+        // comment next line for error
+        return var;
+    }
+
+    void main() {
+        int array [5];
+        char ch1;
+        int varInt;
+        varInt = 5;
+        // This is the correct declaration
+        //array[5] = 5;
+        // This gives an error since 'c' is not an int
+        //array['c'] = 1;
+
+        // for the char this will be correct
+        //ch1 = 'c';
+        // for the char this will not be correct
+        //ch1 = 2*5 + varInt*2;
+        //ch1 = false || true;
+
+        //varInt = func(5);
+        //varInt = func(5,5);
+    }
+}

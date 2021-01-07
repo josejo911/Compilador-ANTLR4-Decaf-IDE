@@ -1,0 +1,9 @@
+class TAC7 {
+    void main () {
+        int x;
+        int y;
+        boolean b;
+
+        b = x <= y;
+    }
+}

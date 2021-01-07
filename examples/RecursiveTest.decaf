@@ -1,0 +1,15 @@
+class RecursiveTest {
+
+    int rMethod (int varInt) {
+        if (varInt > 1) {
+            return 1;
+        } else {
+            return rMethod(varInt + 1);
+        }
+    }
+
+    void main () {
+        int varInt;
+        varInt = rMethod(5);
+    }
+}

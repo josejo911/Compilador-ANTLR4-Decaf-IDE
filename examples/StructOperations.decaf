@@ -1,0 +1,36 @@
+class StructOperations {
+    struct Cat {
+        int eyes;
+        int legs;
+        int paws;
+        int age;
+        char breed;
+        boolean isAdopted;
+    }
+
+    struct Dog {
+        int eyes;
+        int legs;
+        int paws;
+        int age;
+        char breed;
+        boolean isAdopted;
+        struct Cat id;
+    }
+
+    void main() {
+        Cat.eyes = 2;
+        Cat.legs = 4;
+        Cat.paws = 4;
+        Cat.age = 7;
+        Cat.breed = 'E';
+        Cat.isAdopted = true;
+
+        Dog.eyes = 2;
+        Dog.legs = 4;
+        Dog.paws = 4;
+        Dog.age = 7;
+        Dog.breed = 'E';
+        Dog.isAdopted = true;
+    }
+}

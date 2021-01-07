@@ -1,0 +1,15 @@
+class ReturnMethodCall {
+    int method1(int param1) {
+        return param1;
+    }
+
+    int method2(int param1) {
+        return method1(param1);
+    }
+
+    void main() {
+        int value1;
+        int value2;
+        value1 = method2(value2);
+    }
+}

@@ -1,0 +1,12 @@
+class TAC3 {
+    void main () {
+        int x;
+        int y;
+
+        while (x < y) {
+            x = x * 2;
+        }
+
+        y = x;
+    }
+}

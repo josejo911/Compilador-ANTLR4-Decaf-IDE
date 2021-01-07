@@ -1,0 +1,11 @@
+class TAC9 {
+    struct Dog {
+        int id;
+        struct Owner owner;
+    }
+
+    void main() {
+        struct Dog dog;
+        dog.id = 1;
+    }
+}

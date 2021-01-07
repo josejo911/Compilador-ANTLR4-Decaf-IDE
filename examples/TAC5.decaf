@@ -1,0 +1,11 @@
+class TAC5 {
+    void SimpleFn(int z) {
+        int x;
+        int y;
+        x = x*y*z;
+    }
+
+    void main () {
+        SimpleFn(137);
+    }
+}

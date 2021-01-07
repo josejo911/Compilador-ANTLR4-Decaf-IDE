@@ -1,0 +1,14 @@
+class MethodExample {
+    int intMethod(int intVar1, int intVar2) {
+        return intVar1*intVar2;
+    }
+
+    void main() {
+        int intVar1;
+        int intVar2;
+        int intMethodResult;
+
+        // make method call
+        intMethodResult = intMethod(intVar1, intVar2);
+    }
+}

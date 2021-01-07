@@ -1,0 +1,4 @@
+Simulator:          http://courses.missouristate.edu/KenVollmar/MARS/index.htm
+Quick tutorial:     http://logos.cs.uic.edu/366/notes/mips%20quick%20tutorial.htm
+Reference:          http://www2.engr.arizona.edu/~ece369/Resources/spim/MIPSReference.pdf
+Great examples:     http://ecs-network.serv.pacific.edu/ecpe-170/tutorials/mips-example-programs

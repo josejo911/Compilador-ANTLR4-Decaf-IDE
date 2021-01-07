@@ -1,0 +1,22 @@
+class StructOpsTwo {
+    struct Country {
+        int id;
+    }
+
+    struct Owner {
+        int id;
+        struct Country country;
+    }
+
+    struct Dog {
+        int id;
+        struct Owner owner;
+    }
+
+    void main() {
+        struct Dog dog;
+        //dog.id = 1;
+        //dog.owner.id = 2;
+        //dog.owner.country.id = 3;
+    }
+}

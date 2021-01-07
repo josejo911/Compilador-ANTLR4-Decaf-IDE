@@ -1,0 +1,10 @@
+class Return {
+    int retInt(int varInt) {
+        return varInt;
+    }
+
+    void main() {
+        int varInt;
+        varInt = retInt(varInt);
+    }
+}

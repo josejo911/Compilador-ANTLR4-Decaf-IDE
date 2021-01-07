@@ -1,0 +1,13 @@
+class IfTests {
+    void main () {
+        int varInt;
+        boolean varBoolean;
+        if(varBoolean) {
+            // block
+        }
+
+        while(varBoolean) {
+            // block
+        }
+    }
+}
